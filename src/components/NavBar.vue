@@ -1,6 +1,6 @@
 <template>
   <nav class="nav-bar">
-    <img src="../assets/logo-judith-sanchez.svg" alt="Judith Sanchez Logo" />
+    <img src="../assets/KDLogo.svg" alt="Kellie Dixon Logo" /> //Create in Canva
 
     <ul class="social-media-contact">
       <li>
@@ -37,7 +37,7 @@ import '../assets/nav-bar.css';
 // 1.- I am importing an object named portfolioInfo from a
 // JSON file located at '../portfolio-info.json'.
 
-import portfolioJudithSanchez from '../portfolio-info';
+import portfolioKellieDixon from '../portfolio-info';
 
 export default {
   data() {
@@ -46,9 +46,9 @@ export default {
       // that returns an object with three properties: github, linkedin, and email.
       // Each of these properties is assigned the corresponding value
       // from the imported portfolioInfo object.
-      github: portfolioJudithSanchez.github,
-      linkedin: portfolioJudithSanchez.linkedin,
-      email: portfolioJudithSanchez.email,
+      github: portfolioKellieDixon.github,
+      linkedin: portfolioKellieDixon.linkedin,
+      email: portfolioKellieDixon.email,
     };
   },
 };

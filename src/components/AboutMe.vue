@@ -1,6 +1,6 @@
 <template>
   <div class="about-me">
-    <p class="first-line">Hola! My name is</p>
+    <p class="first-line">Hello! My name is</p>
     <h2 class="second-line" @click="incrementCounter">
       {{ firstName }} {{ lastName }}
     </h2>
@@ -8,18 +8,18 @@
       I am a <span class="job-title">{{ jobTitle }}</span>
     </h1>
     <p class="about-me-text">
-      Full Stack Developer 🚀 | Multilingual European Citizen 🇪🇺 | Blending
-      Health 💚 & Education Insights with Tech Solutions 📚 | Embracing Remote
-      Collaboration Worldwide since 2016 🌎
+      Full Stack Developer 🚀 | Multilingual US Citizen living and eligible to work in Germany 🇪🇺 | Blending
+      Education and Teach into Education Insights with Tech Solutions 📚 | Embracing New Possiblities of Remote
+      or Hybrid Collaboration Worldwide 🌎
     </p>
     <p class="about-me-text">
-      As a tech enthusiast, I'm passionate about creating solutions through
-      code. I have a diverse background that includes studying
-      <span class="white-highlight">Physiotherapy</span> and working as an
-      online <span class="white-highlight">Spanish tutor</span>. From that job,
-      my pet project was born:
-      <span class="aqua-highlight">Bocaditos de Español</span>. I'd love for you
-      to check it out!
+      Hi there! I'm a former soldier, billing supervisor, teacher, and now a full-stack developer in Berlin.
+       My diverse background has shaped me into a versatile team player who thrives on problem-solving. 
+       <span class="white-highlight">Teaching abroad</span> fueled my passion for tech, leading me to develop apps like 
+       <span class="aqua-highlight">AleYea CraftbeerMe!</span> and 
+       <span class="aqua-highlight">Homework Homies</span>.
+       <br><br>
+       I'll be starting AWS Cloud training in July and am excited about joining a team where I can grow and contribute as a full-stack developer.
     </p>
 
     <p class="projects-intro">
@@ -44,15 +44,16 @@
 <script>
 import '../assets/main-styles.css';
 import '../assets/about-me.css';
-import portfolioJudithSanchez from '../portfolio-info';
+
+import portfolioKellieDixon from '../portfolio-info';
 
 export default {
   data() {
     return {
-      firstName: portfolioJudithSanchez.firstName,
-      lastName: portfolioJudithSanchez.lastName,
-      jobTitle: portfolioJudithSanchez.jobTitle,
-      cv: portfolioJudithSanchez.cv,
+      firstName: portfolioKellieDixon.firstName,
+      lastName:  portfolioKellieDixon.lastName,
+      jobTitle:  portfolioKellieDixon.jobTitle,
+      cv:  portfolioKellieDixon.cv,
       clickCounter: 0,
     };
   },
