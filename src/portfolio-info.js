@@ -109,7 +109,7 @@ const portfolioKellieDixon = new Portfolio({
       repository: 'github.com/KDKahlo/Cozone-MVP-Forked',
     
       
-        livePreview:'https://www.loom.com/share/4d78cd4711eb4b8faf6b78f2c14a3db5',
+        livePreview:'www.loom.com/share/4d78cd4711eb4b8faf6b78f2c14a3db5',
      
       description:
       'A full-stack web app by Kecia Orleans. Built with React.js, Node.js, Express, and MySQL. I  <span class="highlight1">contributed </span>  to my classmates MVP by adding registration with<span class="highlight2"> authentication and authorization</span> for the user.<span class="highlight2">  Created React-Tinder Cards display</span> of player profiles as well as filter by rank. Also added Navbar.',

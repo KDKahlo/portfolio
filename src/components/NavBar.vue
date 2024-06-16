@@ -1,6 +1,6 @@
 <template>
   <nav class="nav-bar">
-    <img src="../assets/KDLogo.svg" alt="Kellie Dixon Logo" /> //Create in Canva
+    <img src="../assets/KDLogo.svg" alt="Kellie Dixon Logo" />
 
     <ul class="social-media-contact">
       <li>

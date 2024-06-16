@@ -57,13 +57,6 @@ export default {
       clickCounter: 0,
     };
   },
-  methods: {
-    incrementCounter() {
-      this.clickCounter++;
-      if (this.clickCounter === 3) {
-        this.$emit('show-admin-access');
-      }
-    },
-  },
+ 
 };
 </script>
